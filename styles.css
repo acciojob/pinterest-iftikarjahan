@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+*{
+	box-sizing:border-box;
+}
+img{
+	width:500px;
+	height:300px;
+	padding:30px;
+	object-fit:cover;
+}
+.hero{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.papa{
+	text-align:center;
+}
+button{
+	padding:10px;
+	background-color:red;
+	color:white;
+	border-radius:5px;
+	border:none;
+}
+
